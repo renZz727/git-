@@ -61,5 +61,19 @@
         <button type="submit"></button>
       </form>
     </div>
+    <script>
+
+      async function fetchData() {
+
+        const data = await fetch('https://api.weatherapi.com/v1/forecast.json?key=f79a86fd3d6142df94534541250512&q=palakkad&days=10');
+        const resolved = await data.json();
+        console.log(resolved);
+        console.log(resolved.forecast );
+        console.log(resolved.forecast.forecastday[0]);
+        console.log(resolved.forecast.forecastday[0].hour[20]);
+        console.log(resolved.forecast.forecastday[0].hour[20].temp_c)
+      }
+      fetchData();
+    </script>
   </body>
 </html>
