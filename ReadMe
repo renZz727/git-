@@ -1,0 +1,96 @@
+🎯 Git Practice Tasks
+🚀 Setup
+
+Create a new project folder.
+
+Initialize a git repository.
+
+Push the initial project to GitHub.
+
+Ask your friend to clone the repository.
+
+🧩 Feature Development
+🟦 Task A — Your Feature
+
+Create a branch for adding a navigation bar.
+
+Add code for the navbar.
+
+Commit and push your branch.
+
+🟨 Task B — Friend’s Feature
+
+Friend creates a branch for adding a footer.
+
+Friend adds footer code.
+
+Friend commits and pushes.
+
+🔄 Integration into Main
+🔧 Task C — Merge Your Work
+
+Switch to main branch.
+
+Pull latest changes.
+
+Merge navbar branch into main.
+
+Push main.
+
+🔧 Task D — Friend Merges Their Work
+
+Friend switches to main.
+
+Friend pulls latest main.
+
+Merge footer branch into main.
+
+Resolve merge conflicts in the HTML file.
+
+Commit and push.
+
+🔁 Advanced Tasks
+🔥 Task E — Try Rebase Instead of Merge
+
+Friend rebases footer branch on top of main.
+
+Resolve conflicts.
+
+Push branch with force.
+
+💣 Conflict Scenario
+❌ Task F — Create a Conflict On Purpose
+
+Both of you modify the same line or same paragraph in the same file.
+
+Commit separately.
+
+Try merging.
+
+Resolve conflict.
+
+📦 Cleanup Tasks
+🧹 Task G — Delete Merged Branches
+
+Delete feature branches locally and remotely.
+
+🎯 Bonus Challenges
+⭐ Bonus 1
+
+Tag a version (v1.0.0) and push the tag.
+
+⭐ Bonus 2
+
+Restore a deleted file using git.
+
+⭐ Bonus 3
+
+Undo a wrong commit using reset or revert.
+
+🎉 Your Goal
+
+For each task:
+
+👉 Recall the correct git commands
+👉 Execute them on your laptop / friend’s laptop
+👉 Verify the result on GitHub
